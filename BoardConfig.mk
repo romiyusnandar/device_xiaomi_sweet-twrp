@@ -32,8 +32,8 @@ ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
 
 # Bootloader
-PRODUCT_PLATFORM := sm6150
-TARGET_BOOTLOADER_BOARD_NAME := sm6150
+PRODUCT_PLATFORM := sm7150
+TARGET_BOOTLOADER_BOARD_NAME := sm7150
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
@@ -41,9 +41,9 @@ TARGET_USES_UEFI := true
 PRODUCT_FS_COMPRESSION := 1
 
 # Platform
-TARGET_BOARD_PLATFORM := sm6150
+TARGET_BOARD_PLATFORM := sm7150
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno618
-QCOM_BOARD_PLATFORMS += sm6150
+QCOM_BOARD_PLATFORMS += sm7150
 
 # Kernel
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.memcg=1 lpm_levels.sleep_disabled=1 video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=1 androidboot.usbcontroller=a600000.dwc3 androidboot.selinux=permissive
